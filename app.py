@@ -6,11 +6,12 @@ Created on Thu Sep 24 10:35:36 2020
 """
 
 
+
 # app.py
 from flask import Flask, request, jsonify
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/Zsolt')
 def hello_name():
     return "hello"
 
